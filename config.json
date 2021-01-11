@@ -1,0 +1,95 @@
+{
+
+ "Account": {
+"Username": "smc1",
+     "Password": "startx"
+     },
+ "Target Profit": "3",
+ "Target Win": "10000",
+ "Lose Target": "0",
+ "Reset If Target Profit": "OFF",
+ "Reset If Target Win": "OFF",
+ "Interval": "1",
+ "Config": [{
+
+     "Name Bet Set": "1⃣ Mining Chance 81",
+     "Base Bet": "0.01",
+     "Max Bet": "OFF",
+     "Chance": "65",
+     "Random Chance": {
+          "Toggle": "ON",
+          "Min": "28",
+          "Max": "55"
+        },
+     "Bet": {
+          "Bet": "Hi",
+          "Hi / Low": {
+              "Toggle": "OFF",
+              "If Lose": "2",
+              "If Win": "5"
+            }
+        },
+     "If Win": "1.1",
+     "If Lose": "1.1",
+     "Reset If Win": "3",
+     "Reset If Profit": "0.0000001",
+     "Interval": "1"
+     },{
+
+     "Name Bet Set": "OFF",
+     "Base Bet": "OFF",
+     "Max Bet": "OFF",
+     "Chance": "OFF",
+     "Random Chance": {
+          "Toggle": "OFF",
+          "Min": "OFF",
+          "Max": "OFF"
+        },
+     "Bet": {
+          "Bet": "Low",
+          "Hi / Low": {
+              "Toggle": "OFF",
+              "If Lose": "OFF",
+              "If Win": "OFF"
+            }
+        },
+     "If Win": "OFF",
+     "If Lose": "OFF",
+     "Reset If Win": "OFF",
+     "Reset If Profit": "OFF",
+     "Interval": "212"
+     },{
+
+     "Name Bet Set": "OFF%",
+     "Base Bet": "OFF",
+     "Max Bet": "OFF",
+     "Chance": "OFF",
+     "Random Chance": {
+          "Toggle": "OFF",
+          "Min": "OFF",
+          "Max": "OFF"
+        },
+     "Bet": {
+          "Bet": "Hi",
+          "Hi / Low": {
+              "Toggle": "OFF",
+              "If Lose": "OFF",
+              "If Win": "OFF"
+            }
+        },
+     "If Win": "OFF",
+     "If Lose": "OFF",
+     "Reset If Win": "OFF",
+     "Reset If Profit": "OFF",
+     "Interval": "212"
+     }
+  ],
+  "Auto Wd": {
+       "Toggle": "OFF",
+       "If Balance": "100000000000",
+       "Wallet Address":"DRmt7VJ9MK85qM6YVTW3yLu9LfdnHaYLee",
+       "Amount": "10"
+      },
+  "User-Agent": "Android Phone / Chrome 65 [Mobile]:Mozilla/5.0 (Linux; Android 8.0; BLA-L29 Build/HUAWEIBLA-L29) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.6 Mobile Safari/537.36"
+
+}
